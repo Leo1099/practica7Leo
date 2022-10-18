@@ -24,6 +24,7 @@ self.addEventListener('install',(event)=>{
                 'https://ichef.bbci.co.uk/news/640/cpsprodpb/870D/production/_111437543_197389d9-800f-4763-8654-aa30c04220e4.png',
                 'https://st.mextudia.com/wp-content/uploads/2016/09/Cursos-en-l%C3%ADnea-1.jpg',
                 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css',
+                'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/webfonts/fa-solid-900.ttf',
                 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/webfonts/fa-solid-900.woff2'
 
                 
