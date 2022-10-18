@@ -10,7 +10,7 @@ self.addEventListener('install',(event)=>{
             [
                 './',
                 './index.html',
-                './app.js'
+                './js/app.js'
             ]
         );
     })
