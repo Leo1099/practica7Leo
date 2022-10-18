@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Práctica 7 Leo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mis Notas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Leonardo Vázquez</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Mis Notas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mas Recientes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">PWA</a></li>
+                                <li><a class="dropdown-item" href="#">Desarrollo Móvil Integral</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"></a>Software</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pt-5">
+        <div class="row pt-3">
+            <dic class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Mi nota</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <button class="btn btn-sm btn-light">
+                                    <i class="fa-solid fa-camera"></i>
+                                </button>
+                            </div>
+                            <div class="col-6 text-end">
+                                <button class="btn btn-sm btn-success">Guardar</button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </dic>
+        </div>
+
+        <hr>
+        <h3 class="text-primary">Mis notas</h3>
+
+
+        <div class="card text-white bg-info mb-3">
+            <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/870D/production/_111437543_197389d9-800f-4763-8654-aa30c04220e4.png"
+                class="img-fluid rounded" style="height:400px;width:1600px">
+            <div class="card-body">
+                <h5 class="card-title">Nota de la clase de Narvaez</h5>
+                <p class="col text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorem
+                    molestiae praesentium rem doloremque possimus accusantium dolores, corrupti tempore ipsum saepe
+                    vitae sint et quia quaerat ducimus minima corporis asperiores!</p>
+                <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Nota de la clase de Garduño</h5>
+                <p class="col text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, optio.
+                    Deleniti minus sit omnis illum, et quae sunt tempore commodi beatae laudantium. Ullam ratione dolore
+                    cumque rem, earum doloribus eligendi.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+
+        <div class="card text-white bg-info mb-3">
+            <img src="https://st.mextudia.com/wp-content/uploads/2016/09/Cursos-en-l%C3%ADnea-1.jpg"
+                class="img-fluid rounded" style="height:400px;width:1600px">
+            <div class="card-body">
+                <h5 class="card-title">Nota de la clase de Narvaez</h5>
+                <p class="col text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, optio
+                    molestias est aliquam nemo nisi iure id tenetur? Quos ab delectus molestiae sint soluta. Adipisci
+                    maiores voluptatem nobis consequuntur iure!</p>
+                <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script  src="./js/app.js"></script>
+
+</body>
+
+</html>
